@@ -15,5 +15,11 @@ function dividir(a, b){
     return a / b;
 }
 
+/*--Se agrega funcion para calculo de factorial (desde el Repo-Remoto)--*/
+function factorial(n){
+    if (n <= 0) return 1;
+    return n * factorial(n - 1);
+}
+
 sumar(5, 3);
 restar(10, 6);
